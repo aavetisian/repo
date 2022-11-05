@@ -3,5 +3,5 @@ markdown
 <!--This is your header-->
 ## Subtitle
 :wink:
-[x] Task 1
-[ ] Task 2
+* [x] Task 1
+* [ ] Task 2
