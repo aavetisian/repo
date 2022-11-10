@@ -1,3 +1,17 @@
-h1{font-size: larger;
-
+.header{
+    background-color: rgb(48, 95, 172);
+    max-height: 300px;
+    padding: 20px;
+    
+}
+img{
+    background-color: rgb(48, 95, 172);
+    max-width: 300px;
+    max-height: 50px;
+    position: relative;
+    left: 1250px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
 }
