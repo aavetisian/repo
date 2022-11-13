@@ -1,12 +1,26 @@
 .header{
     background-color: rgb(48, 95, 172);
-   
-    padding: 20px 20px 20px 20px;
-    
+    display: flex;
+    padding: 20px;
+    margin: 2px;
 }
-
+img.logo {
+width: 500px;
+height: 200px;
+}
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
+    
+}
+.code{
+    border:2px solid rgb(1, 20, 51) ;
+    background-color: rgb(166, 170, 170);
+    margin: auto;
+  width: 40%;
+  padding: 10px;
+}
+.education{
+    font-family: "Trirong", serif;
 }

@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
 </head>
 <body>
     <header class="header">
-          <img src="logo.png" alt="NOORLOGIC logo">
+          <img class="logo" src="logo.png" alt="NOORLOGIC logo">
           <H1>Ani Avetisyan</H1>
     </header>
     <main >
@@ -26,13 +27,41 @@
         <li><a href="https://www.drupal.org/user"><b>Drupal</b></a></li>
     </div>
     <hr>
-    <h3>Education</h3>
+    
+    <h3 class="education">Education</h3>
     <p>Russian-Armenian Univercity&copy; 2014-18 </p>
+    <div class="english">
     <h3>English level </h3>
     <ul>
         <li>B1 reading</li>
         <li>B2 listening</li>
     </ul>
-    </main>
+    </div>
+    <div class="about">
+    <h3>About myself</h3>
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ullam quia accusamus omnis architecto. Nulla repudiandae animi exercitationem aut! Aspernatur ex doloribus quam autem! Accusamus ab nesciunt molestiae eius unde?</p>
+<div class="near">
+</div>
+<h3>Skills and profiency</h3>
+<p class="skills">
+    <ul>
+        <li><b>HTML 5</b> Hexelet</li>
+        <li><b>CSS 3</b>Hexelet</li>
+        <li><b>Markdown</b>GitHub</li>
+    </ul>
+</p>
+<div class="code">
+<h3>Some code</h3>
+<code>
+    <pre>
+    function detq_preprocess(&$variables, $hook)
+{
+	$variables['base_path'] = \Drupal::request()->getSchemeAndHttpHost() ;
+}
+</pre>
+</code>
+</div>
+</div>
+</main>
     </body>
 </html>
