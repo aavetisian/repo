@@ -1,26 +1,41 @@
-.header{
-    background-color: rgb(48, 95, 172);
+.container{
     display: flex;
+    background-color: rgb(23, 101, 160);
+    flex-grow: 1;
     padding: 20px;
-    margin: 2px;
+    
 }
 img.logo {
 width: 500px;
-height: 200px;
+height: auto;
+margin: 5px;
+
 }
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
-    color: aliceblue;
+    color: rgb(220, 231, 240);
+    font-size: 20px;
     
 }
 .code{
     border:2px solid rgb(1, 20, 51) ;
     background-color: rgb(166, 170, 170);
-    margin: auto;
-  width: 40%;
+    margin: 5px;
+  word-wrap: break-word;
   padding: 10px;
 }
 .education{
     font-family: "Trirong", serif;
+    display: flex;
+}
+.lorem{
+    word-wrap: break-word;
+}
+.wrapper{
+    display: flex;
+    flex: 1;
+}
+.profile image{
+margin: 5px;
 }
