@@ -1,13 +1,16 @@
 
+@font-face {
+    font-family: Lato-BlackItalic;
+    src: url(gfont/Lato-BlackItalic.ttf);
+  }
 .container{
     display: flex;
     background-color: rgb(23, 101, 160);
     flex-wrap: wrap;
     padding: 20px;
-    
+    justify-content: space-between;
 }
 img.logo {
-width: 500px;
 height: auto;
 margin: 5px;
 
@@ -25,6 +28,7 @@ h1{
     margin: 5px;
   word-wrap: break-word;
   padding: 10px;
+  
 }
 .education{
     font-family: "Trirong", serif;
@@ -38,6 +42,11 @@ h1{
    flex-wrap: wrap;
    justify-content: space-evenly;
 }
-.profile image{
-margin: 5px;
+.about {
+    background-color: rgb(102, 173, 235);
+    padding: 10px;
+    border-left: 5px solid rgb(4, 72, 131);
+}
+h2{
+    font-family: Lato-BlackItalic;
 }
