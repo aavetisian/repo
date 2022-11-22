@@ -10,219 +10,128 @@
 
   *{
     margin: 0;
-  }
-.header {
-    display: flex;
-    background-color: rgba(242, 120, 92, 0.7);
-    width: 100%;
-    height: 90px;
-    position: absolute;
-    top: 0;
-    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
-    box-sizing: border-box;
-
+    background-image: url("images/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-.backgroundimage{
 
-width: 100%;
-
+.menu {
+height: auto;
+left: 0px;
+top: 0px;
+margin: 0;
+background: rgba(242, 120, 92, 0.7);
+box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+box-sizing: border-box;
+display: flex;
+flex-wrap: wrap;
 }
 .logo{
     width: 30px;
     height: 30px;
-    position: absolute;
-    top: 26px;
-    left: 120px;
+    margin-left: 120px;
+    margin-top: 26px;
+    background: rgba(242, 120, 92, 0);
 }
-.menuitem{
-position: absolute;
-width: 180px;
-height: 31px;
-left: 156px;
-top: 25px;
-
-font-family: Magra-Regular;
+.travel{
+    font-family: Magra-Regular;
 font-style: normal;
 font-weight: 600;
 font-size: 32px;
 line-height: 39px;
-
-color: rgb(255, 255, 255);
+background: rgba(242, 120, 92, 0);
+color: #FFFFFF;
+margin-top: 25px;
+margin-left: 6px;
 }
-.menu{
-    display: flex;
-    color: rgb(255, 255, 255);
-   
-}
-.how{
-    width: 98px;
-height: 21px;
-
-font-family: RedHatText-VariableFont_wght;
+.item1{
+font-family: Aleo-Regular ;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 21px;
-
+background: rgba(242, 120, 92, 0);
 color: #FFFFFF;
+margin: 34px;
+margin-left: 158px;
+margin-right: 42px;
 }
-.items{
-    justify-content: center;
-}
-h1{
-position: absolute;
-width: 892px;
-height: 422px;
-left: 120px;
-top: 122px;
+.item2{
+    font-family: Aleo-Regular ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    background: rgba(242, 120, 92, 0);
+    color: #FFFFFF;
+    margin: 34px;
+    
+    margin-right: 42px;
+    }
+    .item3{
+        font-family: Aleo-Regular ;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        background: rgba(242, 120, 92, 0);
+        color: #FFFFFF;
+        margin: 34px;
+        
+        margin-right: 42px;
+        }
+    .item4{
+            font-family: Aleo-Regular ;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            background: rgba(242, 120, 92, 0);
+            color: #FFFFFF;
+            margin: 34px;
+            
+            margin-right: 42px;
+            }
+    .login{
+        background: #0D606F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
 color: #FFFFFF;
-font-family: Aleo-Regular;
+box-sizing: border-box;
+padding: 10px 30px;
+margin: 24px 150px 25px 121px;
+    }
+    h1{
+        font-family: Aleo-Regular ;
 font-style: normal;
 font-weight: 700;
 font-size: 80px;
 line-height: 96px;
-padding: 5px 0 10px;
-
-}
-.main{
-    margin: 122px 428px 221px;
-}
-.receive{
-    position: absolute;
-    width: 723px;
-    height: 24px;
-    left: 120px;
-    top: 346px;
-    
-    font-family: Aleo-Regular;
-    font-style: italic;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px; 
-    color: #FFFFFF;
-}
-.planning{
-width: 163px;
-height: 32px;
-
-font-family: Aleo-Regular;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 32px;
-
-color: #FFFFFF;
-}
-.what{
-padding: 32px 0 18px 41px;
-width: 560px;
-height: 22px;
-left: 161px;
-top: 448px;
-}
-h2{
-text-align: center;
-width: 611px;
-height: 53px;
-margin-top: 80px;
-font-family: Aleo-Regular;
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 53px;
-
-color: #F2785C;
-}
-.items>a{
-width: 98px;
-height: 21px;
-
-font-family: Aleo-Regular;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 21px;
-padding: 42px;
+word-wrap: break-word;
 color: #FFFFFF;
 
-}
-.items{
-    margin-left: 356px;
-    margin-top: 34px;
-}
-
-
-
-
-
-
-/* 
-.searchDiv{
-    display: flex;
-position: absolute;
-width: 892px;
-height: 95px;
-left: 120px;
-top: 416px;
-} */
-
-
-.search{
-    display: flex;
-position: absolute;
-box-sizing: border-box;
-width: 892px;
-height: 95px;
-left: 120px;
-top: 416px;
-
-
-background: rgba(255, 255, 255, 0.7);
-border-radius: 16px;
-}
-.searchInput{
-
-font-family: Aleo-Regular;
+    }
+    .main{
+        margin-top: 122px;
+        margin-left: 120px;
+        flex-flow: column;
+        margin-right: 600px;
+    }
+    .text{
+        font-family: Aleo-Regular ;
 font-style: italic;
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
-
-background: rgba(255, 255, 255, 0);
-
-border-radius: 16px 0;
-border: none;
-
-width:100%;
-max-width: 560px;
-padding: 0 41px ;
-}
-
-
-
-
-
-.searchInput::placeholder{
-    color: #F2785C;
-
-    
-
-}
-.submitbtn{
-
-margin-top: 18px;
-margin-right: 18px;
-box-sizing: border-box;
-padding: 13.5px 32.5px;
-
-width: 228px;
-height: 59px;
-left: 766px;
-top: 434px;
-background: #0D606F;
-box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
-border-radius: 10px;
-border: none;
-
-}
-
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+margin-top: 46px;
+margin-bottom: 46px;
+    }
+    .input{
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 16px;
+        padding-top: 32px;
+        padding-bottom: 41px;
+        padding-left: 41px;
+    }
