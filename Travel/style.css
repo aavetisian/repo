@@ -7,13 +7,21 @@
     font-family:Aleo-Regular ;
     src: url(gfonts/Aleo-Regular.ttf);
   }
+  @font-face {
+    font-family:RedHatText ;
+    src: url(gfonts/redhattext-variablefont_wght-webfont.woff2);
+  }
 
   *{
     margin: 0;
+    
+}
+.section1{
     background-image: url("images/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-origin: border-box;
+    padding-bottom: 200px;
 }
 
 .menu {
@@ -46,9 +54,9 @@ margin-top: 25px;
 margin-left: 6px;
 }
 .item1{
-font-family: Aleo-Regular ;
+font-family: RedHatText ;
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 font-size: 16px;
 line-height: 21px;
 background: rgba(242, 120, 92, 0);
@@ -58,9 +66,9 @@ margin-left: 158px;
 margin-right: 42px;
 }
 .item2{
-    font-family: Aleo-Regular ;
+    font-family: RedHatText ;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 21px;
     background: rgba(242, 120, 92, 0);
@@ -70,9 +78,9 @@ margin-right: 42px;
     margin-right: 42px;
     }
     .item3{
-        font-family: Aleo-Regular ;
+        font-family: RedHatText ;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 16px;
         line-height: 21px;
         background: rgba(242, 120, 92, 0);
@@ -82,9 +90,9 @@ margin-right: 42px;
         margin-right: 42px;
         }
     .item4{
-            font-family: Aleo-Regular ;
+            font-family: RedHatText ;
             font-style: normal;
-            font-weight: 500;
+            font-weight: 600;
             font-size: 16px;
             line-height: 21px;
             background: rgba(242, 120, 92, 0);
@@ -103,20 +111,21 @@ padding: 10px 30px;
 margin: 24px 150px 25px 121px;
     }
     h1{
-        font-family: Aleo-Regular ;
+        font-family: RedHatText ;
 font-style: normal;
-font-weight: 700;
+font-weight: 600;
 font-size: 80px;
 line-height: 96px;
-word-wrap: break-word;
-color: #FFFFFF;
 
+color: #FFFFFF;
+max-width: 800px;
     }
     .main{
         margin-top: 122px;
         margin-left: 120px;
         flex-flow: column;
-        margin-right: 600px;
+        margin-right: 300px;
+        margin-bottom: 254px;
     }
     .text{
         font-family: Aleo-Regular ;
@@ -127,11 +136,92 @@ line-height: 24px;
 color: #FFFFFF;
 margin-top: 46px;
 margin-bottom: 46px;
+word-wrap: break-word;
     }
-    .input{
-        background: rgba(255, 255, 255, 0.7);
+    .searchButton{
+       
+        display: flex;
+    }
+    ::placeholder{
+font-family: Aleo-Regular ;
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+border-width: 500px;
+color: #F2785C;
+    }
+.itext{
+    background: rgba(255, 255, 255, 0.7);
+        width: 892px;
+        height: 95px;
+        left: 120px;
+        top: 416px;
         border-radius: 16px;
         padding-top: 32px;
         padding-bottom: 41px;
         padding-left: 41px;
-    }
+        box-sizing: border-box;
+       padding-right: 18px;
+       
+}
+.btext{
+    background: #0D606F;
+box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+padding: 13.5px 32.5px;
+font-family: RedHatText ;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+box-sizing: border-box;
+margin-left: 600px;
+
+}
+
+.button{
+    margin-right: 18px; 
+    margin-top: -75px;
+}
+.trip{
+    text-align: center;
+    font-family: RedHatText ;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 53px;
+color: #F2785C;
+margin-top: 80px;
+margin-bottom: 40px;
+}
+.steps{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bike{
+    padding: 28px 25px 37px 25px;
+    width: 50px;
+    height: 45px;
+    background: #F2785C;
+    background-size: 100px 100px;
+    border-radius: 16px;
+}
+.calendar{
+    padding: 24px;
+    width: 52px;
+    height: 52px;
+    background: #F2785C;
+    background-size: 100px 100px;
+    border-radius: 16px;
+}
+.plane{
+    padding: 28px 20px 27px 20px;
+    width: 60px;
+    height: 45px;
+    background: #F2785C;
+    background-size: 100px 100px;
+    border-radius: 16px;
+}
