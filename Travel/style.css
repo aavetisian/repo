@@ -14,7 +14,7 @@
 
   *{
     margin: 0;
-    
+   
 }
 .section1{
     background-image: url("images/garrett-parker-DlkF4-dbCOU-unsplash\ 1.jpg");
@@ -111,9 +111,9 @@ padding: 10px 30px;
 margin: 24px 150px 25px 121px;
     }
     h1{
-        font-family: RedHatText ;
+        font-family: Aleo-Regular ;
 font-style: normal;
-font-weight: 600;
+font-weight: 700;
 font-size: 80px;
 line-height: 96px;
 
@@ -177,7 +177,7 @@ font-size: 24px;
 line-height: 32px;
 color: #FFFFFF;
 box-sizing: border-box;
-margin-left: 600px;
+margin-left: 650px;
 
 }
 
@@ -198,7 +198,7 @@ margin-bottom: 40px;
 }
 .steps{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .bike{
@@ -208,6 +208,7 @@ margin-bottom: 40px;
     background: #F2785C;
     background-size: 100px 100px;
     border-radius: 16px;
+    
 }
 .calendar{
     padding: 24px;
@@ -224,4 +225,89 @@ margin-bottom: 40px;
     background: #F2785C;
     background-size: 100px 100px;
     border-radius: 16px;
+}
+.toDo{
+font-family: Aleo-Regular ;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+margin-top: 30px;
+margin-left: -90px;
+color: #0D606F;
+}
+.dates{
+    font-family: Aleo-Regular ;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+margin-top: 30px;
+margin-left: -70px;
+color: #0D606F;
+}
+.recommendations{
+    font-family: Aleo-Regular ;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+margin-top: 30px;
+margin-left: -70px;
+color: #0D606F;
+}
+.destinations{
+    font-family: RedHatText ;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 53px;
+text-align: center;
+margin-top: 97px;
+margin-bottom: 46px;
+
+color: #F2785C;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin-left: 200px;
+    overflow: hidden;
+}
+.flex-container>div{
+    margin: 0 30px ;
+    
+}
+.flex-container>div>img{
+    border-radius: 16px;
+}
+.flex-container>div>p{
+    font-family: RedHatText ;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 42px;
+position: absolute;
+color: #FFFFFF;
+margin-top: -70px;
+margin-left: 15px;
+}
+.dots>div{
+    width: 20px;
+    height: 20px;
+    background: rgba(242, 120, 92, 0.5);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+}
+.dots>div.dot2{
+    background: #F2785C;
 }
