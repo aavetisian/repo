@@ -23,25 +23,48 @@
     background-origin: border-box;
     padding-bottom: 200px;
 }
-
-.menu {
-height: auto;
+.header{
+height: 90px;
 left: 0px;
 top: 0px;
 margin: 0;
 background: rgba(242, 120, 92, 0.7);
 box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+.navigation{
+    padding: 0 120px;
+}
+
+.menu {
+
 box-sizing: border-box;
 display: flex;
-flex-wrap: wrap;
+
 }
 .logo{
     width: 30px;
     height: 30px;
-    margin-left: 120px;
+    
     margin-top: 26px;
     background: rgba(242, 120, 92, 0);
 }
+.items{
+    display: flex;
+    margin-left: 370px;
+    margin-top: -35px;
+}
+.items>p{
+    font-family: RedHatText ;
+            font-style: normal;
+            font-weight: 600; 
+            font-size: 16px;
+            line-height: 21px;
+            
+            color: #FFFFFF;
+   margin-right: 42px;
+    
+}
+
 .travel{
     font-family: Magra-Regular;
 font-style: normal;
@@ -53,54 +76,7 @@ color: #FFFFFF;
 margin-top: 25px;
 margin-left: 6px;
 }
-.item1{
-font-family: RedHatText ;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 21px;
-background: rgba(242, 120, 92, 0);
-color: #FFFFFF;
-margin: 34px;
-margin-left: 158px;
-margin-right: 42px;
-}
-.item2{
-    font-family: RedHatText ;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 21px;
-    background: rgba(242, 120, 92, 0);
-    color: #FFFFFF;
-    margin: 34px;
-    
-    margin-right: 42px;
-    }
-    .item3{
-        font-family: RedHatText ;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 21px;
-        background: rgba(242, 120, 92, 0);
-        color: #FFFFFF;
-        margin: 34px;
-        
-        margin-right: 42px;
-        }
-    .item4{
-            font-family: RedHatText ;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 21px;
-            background: rgba(242, 120, 92, 0);
-            color: #FFFFFF;
-            margin: 34px;
-            
-            margin-right: 42px;
-            }
+           
     .login{
         background: #0D606F;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
@@ -108,7 +84,7 @@ border-radius: 10px;
 color: #FFFFFF;
 box-sizing: border-box;
 padding: 10px 30px;
-margin: 24px 150px 25px 121px;
+margin-left: 154px;
     }
     h1{
         font-family: Aleo-Regular ;
@@ -310,4 +286,115 @@ margin-left: 15px;
 }
 .dots>div.dot2{
     background: #F2785C;
+}
+.find{
+background: #0D606F;
+box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+font-family: RedHatText ;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+padding: 13.5px 31px;
+color: #FFFFFF;
+justify-content: center;
+margin-left: 44%;
+}
+.find>img{
+    margin-right: 12.5px;
+}
+.stories{
+    font-family: RedHatText ;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+text-align: center;
+margin-top: 80px;
+margin-bottom: 40px;
+color: #F2785C;
+}
+.travelStories{
+    background-image: url("images/Mountains.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.layer{
+    background: rgba(255, 255, 255, 0.7);
+    padding-top: 40px;
+    margin-bottom: 51px;
+    
+}
+.lake{
+    display: flex;
+}
+.road{
+    display: flex;
+}
+.snowmountains{
+    display: flex;
+}
+.car{
+    display: flex;
+}
+.layer>div>img{
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+    margin-left: 120px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+.layer>div>div>h3{
+    font-family: Aleo-Regular ;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+margin-bottom: 24px;
+
+color: #0D606F;
+}
+.layer>div>div>p{
+    font-family: Aleo-Regular ;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+width: 760px;
+height: 184px;
+color: #0D606F;
+
+}
+.more{
+    padding: 13.5px 31px;
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    margin-left: 44%;
+    font-family: RedHatText ;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+margin-bottom: 41px;
+
+color: #FFFFFF;
+}
+.more>img{
+    margin-right: 12.5px;
+    margin-bottom: -5px;
+}
+.footer{
+    font-family: RedHatText ;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 21px;
+margin-left: 44%;
+color: #FFFFFF;
+padding-bottom: 19px;
+margin-top: -30px;
 }
