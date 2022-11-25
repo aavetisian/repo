@@ -54,17 +54,18 @@ display: flex;
     margin-top: -35px;
 }
 .items>p{
-    font-family: RedHatText ;
-            font-style: normal;
-            font-weight: 600; 
-            font-size: 16px;
-            line-height: 21px;
-            
-            color: #FFFFFF;
-   margin-right: 42px;
     
+   margin-right: 42px;
 }
-
+.items>p>a{
+    font-family: RedHatText ;
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 16px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+}
 .travel{
     font-family: Magra-Regular;
 font-style: normal;
@@ -250,8 +251,8 @@ color: #F2785C;
 .flex-container{
     display: flex;
     justify-content: center;
-    max-width: 1440px;
-    margin-left: 200px;
+    
+    
     overflow: hidden;
 }
 .flex-container>div{
