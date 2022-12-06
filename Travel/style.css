@@ -95,7 +95,7 @@ display: flex;
     line-height: 96px;
     padding-right: 0%;
     color: #FFFFFF;
-
+    max-width: 800px;
     }
     .main{
         margin-top: 122px;
@@ -152,8 +152,8 @@ font-size: 24px;
 line-height: 32px;
 color: #FFFFFF;
 box-sizing: border-box;
-margin-top: -79px;
-margin-left: 34.5%;
+margin-top: -77px;
+margin-left: 43.5%;
 position: absolute;
 }
 .input{
@@ -300,7 +300,7 @@ line-height: 32px;
 padding: 13.5px 31px;
 color: #FFFFFF;
 justify-content: center;
-margin-left: 44%;
+margin-left: 43.2%;
 }
 .find>img{
     margin-right: 12.5px;
