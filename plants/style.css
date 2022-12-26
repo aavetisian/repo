@@ -1,0 +1,385 @@
+@font-face {
+    font-family: inika;
+    src: url(assets/fonts/inika/Inika-Regular.ttf);
+    font-weight: 600;
+}@font-face {
+    font-family: inikabold;
+    src: url(assets/fonts/inika/Inika-Bold.ttf);
+    
+}
+@font-face {
+    font-family: inter-med;
+    src: url(assets/fonts/inter/static/Inter-ExtraLight.ttf);
+}
+@font-face {
+    font-family: inter;
+    src: url(assets/fonts/inter/Inter-Regular.ttf);
+    font-size: 600;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+button{
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    background-color: rgb(237, 242, 236);
+    padding: 14px 27px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    font-family: inter;
+}
+button:hover{
+    background: #E06733;
+    color: rgb(255, 255, 255);;
+}
+.header{
+    background-color: rgb(237, 242, 236);
+    font-family: inika;
+    font-size: 16px;
+    padding: 42px 0;
+    overflow: hidden;
+}
+main{
+    overflow: hidden;
+    
+}
+.logo{
+    display: flex;
+}
+.logo>p{
+    line-height: 21px;
+    margin-left: 1px;
+    font-weight: 400;
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+}
+.navigation>ul>li>a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    margin-right: 46px;
+    color: #010201;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.navigation>ul .home>a{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    color: #E06733; 
+}
+.navigation>ul .cont>a{
+    margin-right: 0;
+}
+.welcome{
+    background-color: rgb(237, 242, 236);
+    display: flex;
+    padding: 52px 0;
+}
+.container {
+    width: 1222px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    font-family: inter;
+    color: rgb(113, 113, 113);
+    padding-bottom: 40px;
+    padding-top: 9px;
+}
+    
+.content>p{
+    color: rgb(113, 113, 113);
+    font-family: inter;
+    /* font-weight: 400; */
+    font-size: 20px;
+    line-height: 35px;
+    padding-bottom: 47px;
+}
+.content{
+    margin-left: 17.2%;
+}
+.content>button{
+    padding: 10px 25px;
+    margin-left: -6px;
+}
+h2{
+    color: rgb(73, 154, 24);
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    font-family: inika;
+    padding-bottom: 40px;
+    padding-right: 10%;
+}
+.gardeners>p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(99, 96, 96);
+    font-family: inika;
+}
+.gardeners{
+    margin-right: 12%;
+}
+.about
+{
+    padding: 93px 0;
+}
+.service{
+    background-color:  rgb(237, 242, 236);
+}
+.projects{
+    display: flex;
+    padding-top: 40px;
+    
+}
+.buttons{
+    
+    padding-top: 30px;
+}
+.buttons>button{
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    margin-right: 32px;
+    padding: 12px 0;
+    color: #E06733;
+    width: 161px;
+}
+.buttons>button:hover{
+    
+    color: #fff;
+}
+
+.gardening>img{
+    border-radius: 20px 20px 0px 0px;
+}
+.care{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgb(224, 103, 51);
+    font-family: inter;
+    text-align: center;
+    padding: 10px 0;
+}
+.lorem{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(113, 113, 113);
+    font-family: inter;
+    text-align: center;
+    padding-top: 10px;
+}
+.gardening{
+    width: 330px;
+    max-width: 100%;
+}
+.gardenCare{
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+    padding-bottom: 28px;
+    margin-top: -4px;
+}
+.gardeningServices{
+    display: flex;
+    justify-content: space-between;
+    
+    padding-top: 35px;
+    flex-wrap: wrap;
+   
+}
+.gardenblock{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.prices{
+    padding-bottom: 128px;
+    padding-top: 20px;
+}
+.priceTypes{
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    width: 332px;
+    max-width: 100%;
+    padding: 34px 41px 2px;
+    margin-top: 60px;
+}
+.priceTypes>div{
+    background: #EDF2EC;
+    border-radius: 20px;
+    padding: 16px 40px;
+    font-family: inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 32px;
+    border: none;
+    
+    
+}
+.priceTypes>div:hover{
+    background: #D6E7D2;
+}
+.priceTypes>div>img{
+    background: #D9D9D9;
+    padding: 6px;
+    border-radius: 50%;
+}
+.prices h2{
+    color: #000000;
+    font-family: inter;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    padding: 0;
+}
+.bestGardeners>div>button{
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #E06733;
+    font-family: inika;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+.bestGardeners>button:hover{
+    background-color: #E06733;
+    color: #fff;
+}
+.priceBlock{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.bestGardeners>h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    max-width: 452px;
+    text-align: right;
+    padding-left: -20px;
+}
+.bestGardeners{
+    width: 452px;
+    max-width: 100%;
+    flex-flow: column;
+}
+.contactUs{
+    padding-left: 63%;
+}
+.contactUs button{
+    margin: 38px 0 39px 0;
+    padding: 12px 34px;
+}
+h3{
+    margin-left: 33px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    font-family: inikabold;
+   
+}
+.contacts{
+    background-color: #EDF2EC;
+}
+.contactUs button:hover{
+    background: #E06733;
+    color: #fff;
+}
+.city{
+    display: flex;
+    width: 450px;
+    max-width: 100%;
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+    justify-content: space-between;  
+    padding: 5px 35px 5px 20px;
+    height: 50px;
+    margin-top: 90px;
+}
+.city:hover{
+    background-color: #C1E698;
+}
+.contBlock{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    background-color: #EDF2EC;
+}
+.city>p{
+    color: #717171;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: inter;
+    height: auto;
+}
+.city>div>img{
+    background-color: #AEA1A1;
+    padding: 6px;
+    border-radius: 50%;
+    
+}
+
+.cityImg>img{
+    display: block;
+}
+.cityButton{
+    margin-top: 2.5%;
+}
+.footerBlock{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    font-family: inter;
+    font-style: normal;
+    padding: 33px 0;
+}
+.footerBlock>ul{
+    display: flex;
+}
+.footerBlock>ul>li{
+    margin-right: 23px;
+}
+.footerBlock ul>li:first-child{
+    margin-right: 30px;
+    }
+.footerBlock ul>li:nth-child(2){
+    margin-right: 35px;
+    
+    }   
+.footerBlock ul>li:last-child{
+    margin-right: 0;
+}
