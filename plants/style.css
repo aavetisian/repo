@@ -49,6 +49,10 @@ button:hover{
     padding: 42px 0;
     overflow: hidden;
 }
+.burger{
+    display: none;
+}
+
 main{
     overflow: hidden;
     
@@ -82,9 +86,11 @@ main{
     line-height: 50px;
     color: #E06733; 
 }
+
 .navigation>ul .cont>a{
     margin-right: 0;
 }
+
 .welcome{
     background-color: rgb(237, 242, 236);
     display: flex;
@@ -95,11 +101,14 @@ main{
     max-width: 100%;
     margin: 0 auto;
 }
+
 .row{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+
 h1{
     font-weight: 700;
     font-size: 45px;
@@ -109,7 +118,10 @@ h1{
     padding-bottom: 40px;
     padding-top: 9px;
 }
-    
+
+
+
+   
 .content>p{
     color: rgb(113, 113, 113);
     font-family: inter;
@@ -197,6 +209,14 @@ h2{
 .gardening{
     width: 330px;
     max-width: 100%;
+    margin-bottom: 55px;
+}
+.gardening_img {
+    width: 330px;
+    max-width: 100%;
+}
+.gardening_img img{
+    width: 100%;
 }
 .gardenCare{
     border: 1px solid #E3E1D5;
@@ -208,7 +228,7 @@ h2{
     display: flex;
     justify-content: space-between;
     
-    padding-top: 35px;
+    padding: 35px 0 66px 0;
     flex-wrap: wrap;
    
 }

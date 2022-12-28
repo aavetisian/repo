@@ -77,4 +77,11 @@ for(let i = 0; i <= 4; i++) {
 //const first = 1; first = 2;
 //const first = 1, second = 2;
 a = true, b = true
-console.log(!(!a && !b));
+//console.log(!(!a && !b));
+function isPrime(n) {
+  for (let i = 2; i < n; i++) {
+    if ( n % i == 0) return false;
+  }
+  return true;
+}
+//console.log(isPrime(269));

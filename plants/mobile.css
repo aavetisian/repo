@@ -1,0 +1,349 @@
+@media only screen and (max-width: 768px){
+    .container{
+        width: 668px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .row{
+        
+        align-items: center;
+        justify-content: space-between;
+    }
+    .top-row .leafs{
+        order: 2;
+    }
+    .top-row .content{
+        order: 1;
+    }
+    .content {
+        margin-left: 0;
+    }
+    .header{
+        background-color: rgb(237, 242, 236);
+        font-family: inika;
+        font-size: 16px;
+        padding: 35px 0;
+        overflow: hidden;
+    }
+    .burger{
+        display: none;
+    }
+    .navigation>ul .cont>a{
+        margin-right: 0;
+    }
+    h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 50px;
+        color: #717171;
+
+    }
+    .leafs>img{
+        width: 280px;
+        height: 254.15px;
+    }
+    .about{
+        padding: 0;
+        margin-top: 40px;
+        margin-bottom: 95px;
+    }
+    .about>div>div{
+        flex-direction: column;
+    }
+    .gardeners>h2{
+        text-align: center;
+    }
+    .gardeners>p{
+        text-align: left;
+    }
+    .gardeners{
+        margin: 0 auto;
+    }
+    .gardening{
+        margin-bottom: 38px;
+    }
+
+    .about-row>img{
+        width: 250px;
+        height: 258px;
+    }
+    .projects{
+        flex-direction: column;
+    }
+    .projects>button{
+        display: inline;
+    }
+    .serviceprojects>h2{
+        max-width: 416px;
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+        padding-top: 60px;
+    }
+
+    .bestGardeners>h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+        padding-top: 100px;
+        max-width: 296px;
+        margin-left: 9%;
+    }
+    .contactUs{
+        padding: 0;
+        margin-left: 37%;
+    }
+    
+    .contBlock{
+        flex-direction: column;
+    }
+    h3{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .city{
+        margin: 0 auto 250px;
+    }
+    .cityImg{
+        order: 3;
+        margin: auto;
+    }
+    .cityImg>img{
+        width: 200px;
+        height: 248.49px;
+        
+    }
+    .footerBlock{
+        flex-direction: column;
+        padding: 0 ;
+        margin-top: 33px;
+        margin-bottom: 18px;
+        line-height: 24px;
+        
+    }
+    
+    .footerBlock>ul{
+        margin: 0 auto;
+        
+    }
+    .footerBlock>p{
+        text-align: center;
+    }
+    .rs{
+        padding: 16px 0;
+    }
+}
+@media only screen and (max-width: 380px){
+    .container{
+        width: 330px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .welcome{
+        padding: 0 0 24px 0;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+
+    }
+    h1{
+        padding-top: 24px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+        padding-bottom: 20.36px;
+    }
+    .content>p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+    .content>button{
+        margin-left: 3px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 20px;
+        padding: 8.03px 18px;
+        border: 2px solid #E06733;
+    }
+    .burger{
+        display: block;
+    }
+    .navigation{
+        display: none;
+    }
+    .about{
+        margin-bottom: 0;
+        padding-bottom: 31px;
+    }
+    .leafs{
+        display: none;
+    }.projects{
+        padding-top: 30px;
+    }
+    .serviceprojects>h2{
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+        padding: 0;
+        max-width: 187px;
+    }
+    .about{
+        margin: 25px 0 0 50px;
+    }
+    .gardeners>h2{
+        max-width: 288px;
+        padding: 0;
+        margin: 0;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+        text-align: center;
+    }
+    .gardeners>p{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        font-family: inter;
+        margin-top: 13.55px;
+        margin-left: -20px;
+        margin-right: 20px;
+    }
+    .about-row>img{
+        width: 150px;
+        height: 147px;
+    }
+    .priceBlock{
+        flex-direction: column;
+    }
+    .leaf{
+        display: none;
+    }
+    .block1{
+        text-align: center;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .bestGardeners{
+        margin: 0;
+        text-align: center;
+        
+    }
+    .bestGardeners>h2{
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+        padding-top: 19px;
+        max-width: 230px;
+    }
+    .contactUs{
+        margin: 14px 0 0 0;
+    }
+    .bestGardeners>div>button{
+        margin: 0;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 8px 22px;
+    }
+    .buttons>button{
+        width: 121px;
+        margin-right: 0;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 8px 28px 7px 28px;
+        text-align: center;
+    }
+    .buttons{
+        padding-top: 35px;
+    }
+    .lawn{
+        margin-left: 9px;
+    }
+    .planting{
+        margin-top: 9px;
+        margin-bottom: 5px;
+    }
+    .prices{
+        padding: 25px 0 40px 0;
+    }
+    .priceBlock{
+        padding: 0;
+    }
+    .block1>h2{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+    .priceTypes{
+        padding: 29px 22px;
+        margin: 0 auto;
+        width: 224px;
+        
+    }
+    .priceTypes>div>p{
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        
+    }
+    .priceTypes>div{
+        width: 180px;
+        height: 49.72px;
+        padding-left: 30px;
+        padding-right: 40px;
+        margin-bottom: 13.92px;
+    }
+    .priceTypes>div:last-child{
+        margin-bottom: 0;
+    }
+    .contBlock>h3{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 33px;
+        width: 192px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+    }
+    .city{
+        margin: 39px 0 139px 17px;
+        width: 300px;
+        height: 50px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 40px;
+        padding: 5px 20px;
+    }
+    .cityImg>img{
+        width: 100px;
+        height: 124.25px;
+    }
+    .cityButton{
+        margin: 0;
+    }
+    .footerBlock{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        flex-direction: column;
+        margin: 22px 0 7px 0;
+    }
+    .footerBlock>ul{
+        margin: 0 auto;
+    }
+    .rs{
+        padding-top: 0;
+        margin-top: 16px;
+    }
+}
